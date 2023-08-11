@@ -19,10 +19,53 @@ body {
 
 ul, ol, li, a {
     text-decoration: none;
+    list-style: none;
 }
 
 /* ***** Root Var ***** */
 
 :root {
+
+    /* Colors */
     
+    --main-color-solid: ;
+    --main-color-semisolid: ;
+    --main-color-medium: ;
+    --main-color-ligh: ;
+
+    --secondary-color-solid: ;
+    --secondary-color-semisolid: ;
+    --secondary-color-medium: ;
+    --secondary-color-ligh: ;
+
+    --tertiary-color-solid: ;
+    --tertiary-color-semisolid: ;
+    --tertiary-color-medium: ;
+    --tertiary-color-ligh: ;
+
+    --main-bg-color: ;
+    --secondary-bg-color: ;
+
+    --link-color : ;
+
+    --main-hover-color: ;
+    --secondary-hover-color: ;
+
+    /* Fonts */
+    
+    --main-font: ;
+    --secondary-font: ;
+
+    --high-font-size: ;
+    --medium-font-size: ;
+    --low-font-size: ;
+
+    /* Spacing */
+
+    --xlg-spacing: ;
+    --lg-spacing: ;
+    --md-spacing: ;
+    --sm-spacing: ;
+    --xsm-spacing: ;
+
 }

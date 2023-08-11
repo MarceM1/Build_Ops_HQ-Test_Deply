@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./fontAwsome/css/font-awesome.min.css" />
     <!-- Bootstrap Styles -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -15,9 +17,8 @@
     <title>Build Ops HQ</title>
   </head>
   <body>
-    
-		<!-- Header Start -->
-    <header>
+    <!-- Header Start -->
+    <header id="home">
       <!-- Navbar Start -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container py-1">
@@ -90,12 +91,17 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Careers</a>
-              </li> 	 	
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-						<a class="btn rounded-pill px-4 btn-outline-light" href="#" role="button">Need Help? </a>
+            <a
+              class="btn rounded-pill px-4 btn-outline-light d-none d-lg-block"
+              href="#"
+              role="button"
+              >I need a Agent</a
+            >
             <!-- <form class="d-flex" role="search">
 								<input
 									class="form-control me-2"
@@ -110,15 +116,188 @@
           </div>
         </div>
       </nav>
-			<!-- Navbar End -->
+      <!-- Navbar End -->
     </header>
     <!-- Header End -->
-		<!-- Main Start -->
-		<main></main>
-		<!-- Main End -->
-		<!-- Footer Start -->
-		<footer></footer>
-		<!-- Footer End -->
+
+    <!-- Main Start -->
+    <main class="vh-100"></main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark">
+      <!-- Contact form Start -->
+      <section class="row container mx-auto gap-md-0 gap-5 pt-5 pb-4 border-bottom">
+        <article class="col-12 col-md-7 text-white px-2 px-md-5 order-md-last">
+          <h5>CONTACT US</h5>
+          <h2 class="display-4 m-0">Lorem, ipsum</h2>
+          <h2 class="display-4 mb-5">dolor amet consectetur.</h2>
+          <h5>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            recusandae eveniet, velit repudiandae tempora est adipisci. Ullam
+            doloremque minima, illum a placeat delectus cum quos quia. Iure
+            distinctio non voluptatum.
+          </h5>
+        </article>
+				<article class="col-12 col-md-5 p-0 d-flex flex-column gap-4 mb-0 mb-sm-5">
+          <h5 class="text-white">Tell us more about yourself here</h5>
+          <form>
+            <div class="mb-3 d-flex gap-3">
+              <input
+                type="text"
+                id="textInput"
+                class="form-control"
+                placeholder="Name"
+              />
+              <input
+                type="email"
+                id="emailInput"
+                class="form-control"
+                placeholder="Email"
+              />
+            </div>
+            <div class="mb-3 d-flex gap-3">
+              <input
+                type="number"
+                id="numberInput"
+                class="form-control"
+                placeholder="Your Phone"
+              />
+              <input
+                type="email"
+                id="businessEmail"
+                class="form-control"
+                placeholder="Your Businnes Email"
+              />
+            </div>
+            <div class="mb-3 d-flex gap-3">
+              <input
+                type="number"
+                id="businssNumber"
+                class="form-control"
+                placeholder="Your Business Phone"
+              />
+              <input
+                type="text"
+                id="location"
+                class="form-control"
+                placeholder="Your Location"
+              />
+            </div>
+            <div class="mb-3">
+              <select for="selectService" class="form-select">
+                <option>Residential Measurements</option>
+                <option>Xactimate Estimating</option>
+                <option>Suplements</option>
+                <option>Commercial Estimating</option>
+                <option>Project Management</option>
+                <option>Customer Relationship Management (CRM)</option>
+                <option>Invoicing and Payments</option>
+                <option>Bookkeeping and Accounting</option>
+              </select>
+              <label for="selectService" class="form-label text-white">
+                Select Service</label
+              >
+            </div>
+            <div class="mb-3">
+              <select for="companySize" class="form-select">
+                <option>Residential Measurements</option>
+                <option>Xactimate Estimating</option>
+                <option>Suplements</option>
+                <option>Commercial Estimating</option>
+                <option>Project Management</option>
+                <option>Customer Relationship Management (CRM)</option>
+                <option>Invoicing and Payments</option>
+                <option>Bookkeeping and Accounting</option>
+              </select>
+              <label for="companySize" class="form-label text-white m-0">
+                Company Size</label
+              >
+            </div>
+						<div class="d-flex align-items-center justify-content-end"><button type="submit" class="btn btn-outline-light">Submit</button></div>
+            
+          </form>
+        </article>
+      </section>
+      <!-- Contact form End -->
+
+      <!-- Ubicacion Dates Start -->
+      <section class="row border-bottom container m-auto mt-3">
+        <article
+          class="col-12 col-md-8 d-flex align-items-center justify-content-center text-white gap-5 my-5 border-end"
+        >
+          <img src="" alt="LOGO Vector" class="align-self-start" />
+          <article class="d-flex flex-column">
+            <h3>Build Ops HQ</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur.
+              <a href="#"><strong>Let´s connect!.</strong></a>
+            </p>
+          </article>
+        </article>
+        <article
+          class="col-12 col-md-4 flex-column d-flex align-items-center align-items-md-center text-white my-5"
+        >
+          <h3 class="mb-3 d-flex">Office Info</h3>
+          <p class="m-0">(504) 888 9595</p>
+          <p>support@buld.ops.com</p>
+        </article>
+      </section>
+      <!-- Ubicacion Dates End -->
+
+      <!-- Social Media an Footer Navigation Start -->
+      <section
+        class="container my-3 align-items-center flex-column d-flex gap-2"
+        id="footer__icon"
+      >
+        <ul class="text-white d-flex m-0 p-0 gap-3">
+          <li>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-youtube-play" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-map" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+        <article class="d-flex gap-2 gap-md-5" id="footer__nav">
+          <a href="#home" class="text-light">Home</a>
+          <a href="#services" class="text-white">Services</a>
+          <a href="#about-us" class="text-white">About Us</a>
+          <a href="#carees" class="text-white">Carees</a>
+          <a href="#contact" class="text-white">Contact</a>
+        </article>
+      </section>
+      <!-- Social Media an Footer Navigation End -->
+
+      <!-- Mobile version Build OPS Logo Start -->
+      <article
+        class="d-flex d-md-none align-items-center justify-content-center d-block d-md-none"
+      >
+        <a href="#home"><img src="" alt="Logo" /></a>
+      </article>
+      <!-- Mobile version Build OPS Logo End -->
+
+      <!-- Copyrights Start -->
+      <article class="row">
+        <small class="text-center px-4 px-md-0 py-3 text-white"
+          >&copy;<a href="#" class=""><strong>Marcelo Melogno</strong>.</a>
+          Diseño y Desarrollo Web | Agosto 2023</small
+        >
+      </article>
+      <!-- Copyrights End -->
+    </footer>
+    <!-- Footer End -->
 
     <!-- Bootstrap Scrips -->
 
