@@ -18,17 +18,19 @@
   </head>
   <body>
     <!-- Header Start -->
-    <header id="home">
+    <header class="vh-100" id="home">
       <!-- Navbar Start -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav
+        class="navbar navbar-expand-lg container-fluid navbar-dark bg-dark position-absolute"
+      >
         <div class="container py-1">
           <a class="navbar-brand" href="#">
             <img
-              src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+              src="./ASSETS/img/HQ.png"
               alt=""
-              width="30"
-              height="24"
-              class="d-inline-block align-text-top"
+              width="66"
+              height="53"
+              class="d-inline-block align-text-center"
             />
             Build Ops HQ
           </a>
@@ -55,7 +57,7 @@
                 >
                   Services
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
+                <ul class="dropdown-menu border-light">
                   <li>
                     <a class="dropdown-item" href="#"
                       >Residential Measurements</a
@@ -87,18 +89,18 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">About Us</a>
+                <a class="nav-link" aria-current="page" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Careers</a>
+                <a class="nav-link" href="#carees">Careers</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
             <a
               class="btn rounded-pill px-4 btn-outline-light d-none d-lg-block"
-              href="#"
+              href="#contact"
               role="button"
               >I need a Agent</a
             >
@@ -117,17 +119,119 @@
         </div>
       </nav>
       <!-- Navbar End -->
+      <!-- Hero Section Start -->
+      <section class="bg__hero-img vh-100">
+        <div class="row">
+          <article
+            class="col-5 vh-100 d-flex flex-column justify-content-center"
+          >
+            <h2 class="display-5 text-end">
+              Lorem ipsum dolor sit amet, consectetur .
+            </h2>
+            <p class="fs-5 text-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+              ipsam consequuntur laborum corporis illum deserunt perferendis
+              odit ad nobis dicta.
+            </p>
+          </article>
+          <article class="col-2"></article>
+          <article
+            class="col-5 vh-100 d-flex flex-column justify-content-end px-4 pb-5"
+          >
+            <h2 class="display-6 text-end">Lorem ipsum dolor sit amet.</h2>
+            <div class="d-flex align-items-center justify-content-end gap-5">
+              <li class="align-items-center d-flex gap-2">
+                <i class="fa fa-mobile-phone fs-2" aria-hidden="true"></i> (504)
+                888 9595
+              </li>
+              <a href="#contact">
+                <button type="button" class="btn btn-outline-dark rounded-pill">
+                  Contact agent!
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Hero Section End -->
     </header>
     <!-- Header End -->
 
     <!-- Main Start -->
-    <main class="vh-100"></main>
+    <main class="">
+      <!-- Services Section Start -->
+      <section class="vh-100"><h1>SERVICIOS SECTION IN CONSTRUCTION</h1></section>
+      <!-- Services Section End  -->
+
+      <!-- About Us Section Start -->
+      <section class="vh-100">
+        <h2>
+          About US
+        </h2>
+      </section>
+      <!-- About US Section End -->
+
+       <!-- Carees Section Start -->
+       <section class="container-fluid m-0 p-0" id="carees">
+        <article class="worker__atributtes container d-flex flex-column mb-5">
+          <h3 class="">Carees</h3>
+          <h3 class="display-3">The workers wee need are:</h3>
+          <div class="d-flex mt-5 pt-5">
+            <div class="d-flex flex-column align-items-center justify-content-center gap-3">
+              <img src="./ASSETS/img/target.png" alt="">
+              <p class="fs-3">Focused</p>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center gap-3">
+              <img src="./ASSETS/img/mortarboard.png" alt="">
+              <p class="fs-3">Fast Learne</p>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center gap-3">
+              <img src="./ASSETS/img/dumbbell.png" alt="">
+              <p class="fs-3">Hard Worker</p>
+            </div>
+          </div>
+        </article>
+        <article class="big-text__careers w-100 vh-100 d-flex align-items-center justify-content-center">
+          <h3 class="display-3 container">If you feel like you fit our profile and are looking for a place to grow and develop your skills, come <a href="#contact"><strong>join us!</strong></a></h3>
+        </article>
+
+        <h2 class="container mt-5">WE’RE ALWAYS LOOKING FOR INDIVIDUALS THAT:</h2>
+        <article class="worker__skills container  d-flex flex-column gap-5 my-5">
+          <article class="d-flex justify-content-start align-items-center gap-5 ">
+            <img src="./ASSETS/img/artificial-intelligence.png" alt="">
+            <p>Are capable of implementing critical thinking, creativity and logic to troubleshoot different issues.</p>
+          </article>
+          <article class="d-flex justify-content-end gap-5 align-items-center">
+            <p>Are willing to push themselves to be better and are always eager to learn and improve.</p>
+            <img src="./ASSETS/img/medal.png" alt="">  
+          </article>
+          <article class="d-flex align-items-center gap-5">
+            <img src="./ASSETS/img/communication.png" alt="">
+            <p>Have excellent written and spoken English and appreciate clear communication between clients and team members.</p>
+          </article>
+          <article class="d-flex align-items-center justify-content-end gap-5">
+            <p>Provide excellent customer support that adds value to everyone involved.</p>
+            <img src="./ASSETS/img/rating.png" alt="">
+          </article>
+          <article class="d-flex align-items-center gap-5">
+            <img src="./ASSETS/img/employee.png" alt="">
+            <p>Excel at working both independently and alongside a team with a clear goal in mind.</p>
+          </article>
+        </article>
+        
+      </section>
+      <!-- Carees Section End -->
+      
+      <!-- Contact Section End -->
+    </main>
     <!-- Main End -->
 
     <!-- Footer Start -->
-    <footer class="bg-dark">
+    <footer class="">
       <!-- Contact form Start -->
-      <section class="row container mx-auto gap-md-0 gap-5 pt-5 pb-4 border-bottom">
+      <section
+        class="row container mx-auto gap-md-0 gap-5 pt-5 pb-4 border-bottom" id="contact"
+      >
         <article class="col-12 col-md-7 text-white px-2 px-md-5 order-md-last">
           <h5>CONTACT US</h5>
           <h2 class="display-4 m-0">Lorem, ipsum</h2>
@@ -139,7 +243,9 @@
             distinctio non voluptatum.
           </h5>
         </article>
-				<article class="col-12 col-md-5 p-0 d-flex flex-column gap-4 mb-0 mb-sm-5">
+        <article
+          class="col-12 col-md-5 p-0 d-flex flex-column gap-4 mb-0 mb-sm-5"
+        >
           <h5 class="text-white">Tell us more about yourself here</h5>
           <form>
             <div class="mb-3 d-flex gap-3">
@@ -201,21 +307,22 @@
             </div>
             <div class="mb-3">
               <select for="companySize" class="form-select">
-                <option>Residential Measurements</option>
-                <option>Xactimate Estimating</option>
-                <option>Suplements</option>
-                <option>Commercial Estimating</option>
-                <option>Project Management</option>
-                <option>Customer Relationship Management (CRM)</option>
-                <option>Invoicing and Payments</option>
-                <option>Bookkeeping and Accounting</option>
+                <option>1 to 5</option>
+                <option>6 to 10</option>
+                <option>11 to 25</option>
+                <option>26 to 50</option>
+                <option>51 to 200</option>
+                <option>+ 200</option>
               </select>
               <label for="companySize" class="form-label text-white m-0">
                 Company Size</label
               >
             </div>
-						<div class="d-flex align-items-center justify-content-end"><button type="submit" class="btn btn-outline-light">Submit</button></div>
-            
+            <div class="d-flex align-items-center justify-content-end">
+              <button type="submit" class="btn btn-outline-light rounded-5">
+                Submit
+              </button>
+            </div>
           </form>
         </article>
       </section>
@@ -226,7 +333,7 @@
         <article
           class="col-12 col-md-8 d-flex align-items-center justify-content-center text-white gap-5 my-5 border-end"
         >
-          <img src="" alt="LOGO Vector" class="align-self-start" />
+          <img src="./ASSETS/img/HQ.png" alt="LOGO Vector" class="align-self-start" />
           <article class="d-flex flex-column">
             <h3>Build Ops HQ</h3>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -270,28 +377,39 @@
             <a href="#"><i class="fa fa-map" aria-hidden="true"></i></a>
           </li>
         </ul>
-        <article class="d-flex gap-2 gap-md-5" id="footer__nav">
-          <a href="#home" class="text-light">Home</a>
-          <a href="#services" class="text-white">Services</a>
-          <a href="#about-us" class="text-white">About Us</a>
-          <a href="#carees" class="text-white">Carees</a>
-          <a href="#contact" class="text-white">Contact</a>
+        <article class="d-flex gap-3 gap-md-5 fs-6" id="footer__nav">
+          <a href="#home" class="text-white text-center">Home</a>
+          <a href="#services" class="text-white text-center">Services</a>
+          <a href="#about-us" class="text-white text-center">About Us</a>
+          <a href="#carrees" class="text-white text-center">Carees</a>
+          <a href="#contact" class="text-white text-center">Contact</a>
         </article>
+        <li
+          class="text-white text-center p-0 m-0 d-flex align-items-center gap-2"
+        >
+          <i class="fa fa-mobile-phone fs-2" aria-hidden="true"></i> (504) 888
+          9595
+        </li>
       </section>
       <!-- Social Media an Footer Navigation End -->
 
       <!-- Mobile version Build OPS Logo Start -->
       <article
-        class="d-flex d-md-none align-items-center justify-content-center d-block d-md-none"
+        class="d-flex d-md-none align-items-center justify-content-center d-block d-md-none my-5"
       >
-        <a href="#home"><img src="" alt="Logo" /></a>
+        <a href="#home" class="text-center"><img src="./ASSETS/img/HQ.png" alt="Logo" /></a>
       </article>
       <!-- Mobile version Build OPS Logo End -->
 
       <!-- Copyrights Start -->
       <article class="row">
         <small class="text-center px-4 px-md-0 py-3 text-white"
-          >&copy;<a href="#" class=""><strong>Marcelo Melogno</strong>.</a>
+          >&copy;<a
+            href="https://marcelomelogno-webdevelopment.netlify.app/"
+            target="_blank"
+            class=""
+            ><strong>Marcelo Melogno</strong>.</a
+          >
           Diseño y Desarrollo Web | Agosto 2023</small
         >
       </article>

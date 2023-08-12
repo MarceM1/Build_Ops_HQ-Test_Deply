@@ -15,6 +15,7 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    background-color: var(--main-bg-color);
 }
 
 ul, ol, li, a {
@@ -28,22 +29,22 @@ ul, ol, li, a {
 
     /* Colors */
     
-    --main-color-solid: ;
-    --main-color-semisolid: ;
-    --main-color-medium: ;
-    --main-color-ligh: ;
+    --main-color-solid: rgb(43, 49, 83);
+    --main-color-semisolid: rgb(43, 49, 83, 0.75);
+    --main-color-medium: rgb(43, 49, 83, .5);
+    --main-color-ligh: rgb(43, 49, 83, .25);
 
-    --secondary-color-solid: ;
-    --secondary-color-semisolid: ;
-    --secondary-color-medium: ;
-    --secondary-color-ligh: ;
+    --secondary-color-solid: rgb(236, 233, 233) ;
+    --secondary-color-semisolid: rgb(236, 233, 233, .75);
+    --secondary-color-medium: rgb(236, 233, 233, .5);
+    --secondary-color-ligh: rgb(236, 233, 233, .25);
 
-    --tertiary-color-solid: ;
-    --tertiary-color-semisolid: ;
-    --tertiary-color-medium: ;
-    --tertiary-color-ligh: ;
+    --tertiary-color-solid: rgb(248, 148, 40);
+    --tertiary-color-semisolid: rgb(248, 148, 40, .75);
+    --tertiary-color-medium: rgb(248, 148, 40, .5);
+    --tertiary-color-ligh: rgb(248, 148, 40, .25);
 
-    --main-bg-color: ;
+    --main-bg-color: rgba(155, 155, 155, 0.137)   ;
     --secondary-bg-color: ;
 
     --link-color : ;
@@ -68,4 +69,80 @@ ul, ol, li, a {
     --sm-spacing: ;
     --xsm-spacing: ;
 
+}
+
+/* Custom Styles */
+
+/* Navbar */
+
+.navbar {
+    background-color: var(--main-color-solid) !important;
+}
+
+.navbar-brand {
+    color: var(--tertiary-color-solid) !important;
+}
+
+/* Dopdown Menu */
+
+.dropdown-menu {
+    background-color: var(--main-color-semisolid);
+    color: var(--main-bg-color) !important;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+/* Hero Section */
+
+.bg__hero-img {
+    background-image: url(../ASSETS/img/trabajador-techador-ropa-trabajo-protectora-especial-guantes-usando-pistola-neumatica-e-instalando-tejas-concreto-parte-superior-nuevo-techo-concepto-edificio-residencial-construccion\ \(1\).jpg); 
+    background-position: center  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.bg__hero-img li {
+    transition: all .3s ease-in-out;
+}
+.bg__hero-img li:hover {
+    font-weight: bold;
+    color: var(--tertiary-color-solid);
+    text-shadow: 0 0 1px var(--tertiary-color-medium);
+}
+
+
+/* Carees Section */
+
+#carees img{
+    width: 10%;
+}
+
+.worker__atributtes img {
+    transform: scale(1.8);
+}
+
+.big-text__careers {
+    background-color: var(--tertiary-color-solid);
+}
+
+.worker__skills article img {
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 100px;
+    background-color: var(--tertiary-color-solid);
+}
+
+
+/* Footer */
+
+footer  {
+    background-color: var(--main-color-solid);
+}
+
+footer img {
+    width: 22%;
 }
