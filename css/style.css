@@ -44,7 +44,7 @@ ul, ol, li, a {
     --tertiary-color-medium: rgb(248, 148, 40, .5);
     --tertiary-color-ligh: rgb(248, 148, 40, .25);
 
-    --main-bg-color: rgba(155, 155, 155, 0.137)   ;
+    --main-bg-color: #9b9b9b23   ;
     --secondary-bg-color: ;
 
     --link-color : ;
@@ -80,6 +80,11 @@ ul, ol, li, a {
     background-color: var(--main-color-solid) !important;
 }
 
+#dropdown__item:hover {
+    transition:color .3s ease-in-out v;
+    color: var(--main-color-solid) !important;
+    background: var(--tertiary-color-solid);
+}
 .navbar-brand {
     color: var(--tertiary-color-solid) !important;
 }
@@ -138,6 +143,11 @@ ul, ol, li, a {
 
 .worker__atributtes img {
     transform: scale(1.8);
+    
+}
+
+.neumorphism {
+     
 }
 
 .big-text__careers {
@@ -158,19 +168,32 @@ footer  {
     background-color: var(--main-color-solid);
 }
 
+
+
+footer input:hover {
+    box-shadow: 0 0 5px 1px var(--tertiary-color-semisolid);
+}
+
+footer select:hover {
+    box-shadow: 0 0 5px 1px var(--tertiary-color-semisolid);
+}
+
+
 footer img {
     width: 22%;
 }
 
-#footer__nav a:hover {
-    transition: color .3s ease-in-out;
-    color: var(--secondary-color-medium) !important;
-}
+.footer__nav-item:hover {
+    transition: all .3s ease-in-out;
+    color: var(--tertiary-color-solid) !important;
+} 
 
 
 /* Media Querys */
 @media (max-width: 576px) {
     #carees img{
         width: 17%;
-    }
+    };
+
+
   }
