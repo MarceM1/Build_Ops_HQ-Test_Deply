@@ -21,7 +21,7 @@
     <header class="vh-100" id="home">
       <!-- Navbar Start -->
       <nav
-        class="navbar navbar-expand-lg container-fluid navbar-dark bg-dark position-absolute"
+        class="navbar navbar-expand-lg container-fluid navbar-dark bg-dark position-absolute z-3 "
       >
         <div class="container py-1">
           <a class="navbar-brand" href="#">
@@ -121,7 +121,7 @@
       <!-- Navbar End -->
       <!-- Hero Section Start -->
       <section class="bg__hero-img vh-100">
-        <div class="row">
+        <div class="d-none d-md-inline-flex row position-absolute z-2">
           <article
             class="col-5 vh-100 d-flex flex-column justify-content-center"
           >
@@ -136,21 +136,36 @@
           </article>
           <article class="col-2"></article>
           <article
-            class="col-5 vh-100 d-flex flex-column justify-content-end px-4 pb-5"
+            class="col-5 vh-100 d-flex flex-column justify-content-end px-5 pb-5"
           >
             <h2 class="display-6 text-end">Lorem ipsum dolor sit amet.</h2>
             <div class="d-flex align-items-center justify-content-end gap-5">
-              <li class="align-items-center d-flex gap-2">
-                <i class="fa fa-mobile-phone fs-2" aria-hidden="true"></i> (504)
+              <li class="align-items-center d-flex gap-2 fw-bold">
+                <i class="fa fa-mobile-phone fs-2 " aria-hidden="true"></i> (504)
                 888 9595
               </li>
               <a href="#contact">
-                <button type="button" class="btn btn-outline-dark rounded-pill">
+                <button type="button" class="btn btn-outline-dark rounded-pill fw-bold">
                   Contact agent!
                 </button>
               </a>
             </div>
           </article>
+        </div>
+        <!-- Mobile Hero Content -->
+        <div class="d-md-none vh-100 d-flex flex-column position-absolute z-2 justify-content-center align-items-center gap-3">
+          <h2 class="text-center px-4">Lorem ipsum dolor sit amet consectetur.</h2>
+          <div class="d-flex align-items-center justify-content-center gap-4 px-2">
+            <li class="align-items-center d-flex gap-2 fw-bold">
+              <i class="fa fa-mobile-phone fs-2 " aria-hidden="true"></i> (504)
+              888 9595
+            </li>
+            <a href="#contact">
+              <button type="button" class="btn btn-outline-dark rounded-pill fw-bold">
+                Contact agent!
+              </button>
+            </a>
+          </div>
         </div>
       </section>
       <!-- Hero Section End -->
@@ -160,14 +175,26 @@
     <!-- Main Start -->
     <main class="">
       <!-- Services Section Start -->
-      <section class="vh-100"><h1>SERVICIOS SECTION IN CONSTRUCTION</h1></section>
+      <section class="vh-100 container" id="services">
+        <h2 class="display-2">Services</h2>
+       <div class="d-flex flex-column align-items-center justify-content-center">
+        <img src="./ASSETS/img/engineering.png" alt="" class="w-25">
+        <h2 class="display-4">
+          SECTION IN CONSTRUCIION
+        </h2>
+       </div>
+      </section>
       <!-- Services Section End  -->
 
       <!-- About Us Section Start -->
-      <section class="vh-100">
-        <h2>
-          About US
+      <section class="vh-100 container" id="about">
+        <h2 class="display-2">About Us</h2>
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <img src="./ASSETS/img/engineering.png" alt="" class="w-25">
+        <h2 class="display-4">
+          SECTION IN CONSTRUCTION
         </h2>
+        </div>
       </section>
       <!-- About US Section End -->
 
@@ -356,7 +383,7 @@
       <!-- Social Media an Footer Navigation Start -->
       <section
         class="container my-3 align-items-center flex-column d-flex gap-2"
-        id="footer__icon"
+        id="footer__socialMedia-Nav__container"
       >
         <ul class="text-white d-flex m-0 p-0 gap-3">
           <li>
@@ -381,7 +408,7 @@
           <a href="#home" class="text-white text-center">Home</a>
           <a href="#services" class="text-white text-center">Services</a>
           <a href="#about-us" class="text-white text-center">About Us</a>
-          <a href="#carrees" class="text-white text-center">Carees</a>
+          <a href="#carees" class="text-white text-center">Carees</a>
           <a href="#contact" class="text-white text-center">Contact</a>
         </article>
         <li
