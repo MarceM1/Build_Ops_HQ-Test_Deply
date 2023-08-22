@@ -241,8 +241,12 @@ a {
 /* Footer */
 
 footer {
-  background-color: black;
+  background-color: rgb(27, 26, 26);
   color: white !important;
+}
+
+form input, select{
+  background-color: rgb(223, 220, 220)!important;
 }
 
 footer input:hover {
@@ -273,6 +277,26 @@ footer strong {
   color: rgb(99, 99, 227);
 }
 
+footer small strong:hover {
+  transition: all .3s ease-in-out;
+  color: rgb(108, 108, 255);
+  text-shadow: 0 0 2px rgb(102, 102, 252);
+}
+
+#socialMedia i:hover {
+  transition: all .3s ease-in-out;
+
+  color: var(--tertiary-color-solid);
+  text-shadow: 0 0 2px var(--tertiary-color-solid);
+}
+
+#footer_letsConnect {
+  color: var(--tertiary-color-solid);
+}
+
+#footer_letsConnect:hover {
+  text-shadow: 0 0 2px var(--tertiary-color-solid);
+}
 /* Media Querys */
 @media (max-width: 576px) {
   #carees img {
