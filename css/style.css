@@ -76,7 +76,7 @@ a {
   /* Spacing */
 
   --xlg-spacing: ;
-  --lg-spacing: ;
+  --lg-spacing: 7rem;
   --md-spacing: ;
   --sm-spacing: ;
   --xsm-spacing: ;
@@ -157,11 +157,11 @@ a {
 
 .intro {
   background-color: var(--tertiary-color-solid);
-  top: -10%;
+  top: -5%;
   left: 0;
   right: 0;
   
-  margin: auto;
+  
 
 }
 /* Carees Section */
@@ -187,6 +187,34 @@ a {
   background-color: var(--tertiary-color-solid);
 }
 
+/* Services */
+
+#services {
+    background-image: url(../ASSETS/img/Gradient_blob_2.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+#services img {
+    width: 70%;
+}
+ 
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tertiary-color-ligh);
+    margin: var(--md-spacing);
+    border-radius: 50%;
+}
+#services img {
+    border-radius: 15px 0 50px 0;
+
+}
+
+#services-container article {
+    margin-bottom: var(--lg-spacing);
+}
 /* FAQ */
 
 #faq {
