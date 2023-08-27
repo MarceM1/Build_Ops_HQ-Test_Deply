@@ -140,31 +140,44 @@
       <!-- Navbar End -->
       <!-- Hero Section Start -->
       <section class="bg__hero-img vh-100">
-        <video src="./ASSETS/video/Video Fondo Web.mp4" autoplay loop muted ></video>
+        <video
+          src="./ASSETS/video/Video Fondo Web.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
         <div class="row container-fluid position-absolute z-2">
           <article
-            class="col-12 vh-100 d-flex flex-column justify-content-center align-items-center "
+            class="col-12 vh-100 d-flex flex-column justify-content-center align-items-center"
           >
-            <div class="glass-bg rounded-5 w-auto m-0 p-0 d-flex flex-column align-items-center justify-content-center">
-              <img src="./ASSETS/img/HQ.png" alt="" class="toleft" />
-            <h2 class="display-5 text-center toright" >
-              Your Build Operations HeadQuarters
-            </h2>
             <div
-              class="d-flex  align-items-center justify-content-center gap-4 px-2 mb-5"
+              id="herologo"
+              class="glass-bg rounded-5 w-auto m-0 p-0 d-flex flex-column align-items-center justify-content-center toup"
             >
-              <li class="align-items-center d-flex gap-2 fw-bold toup">
-                <i class="fa fa-mobile-phone fs-2 toup " aria-hidden="true"></i> <p class="toup p-0 m-0">(217) 360-9464</p>
-              </li>
-              <a href="#contact" class="toup">
-                <button
-                  type="button"
-                  class="btn btn-outline-dark rounded-pill fw-bold "
-                >
-                  Contact agent!
-                </button>
-              </a>
-            </div>
+              <img src="./ASSETS/img/HQ.png" alt="" class="toleft" id="" />
+              <h2 class="display-5 text-center toright" id="">
+                Your Build Operations HeadQuarters
+              </h2>
+              <div
+                class="d-flex align-items-center justify-content-center gap-4 px-2 mb-5"
+              >
+                <li class="align-items-center d-flex gap-2 fw-bold toup">
+                  <i
+                    class="fa fa-mobile-phone fs-2 toup"
+                    aria-hidden="true"
+                  ></i>
+                  <p class="toup p-0 m-0">(217) 360-9464</p>
+                </li>
+                <a href="#contact" class="toup" id="herologo">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark rounded-pill fw-bold"
+                    id="herologo"
+                  >
+                    Contact agent!
+                  </button>
+                </a>
+              </div>
             </div>
           </article>
         </div>
@@ -178,20 +191,22 @@
         class="container d-flex flex-column align-items-center justify-content-centerpy-5 gap-5"
         id="services"
       >
-      <section
-        class="intro d-none d-md-block container-fluid container-md rounded-pill my-5 py-4 px-5 toup"
-      >
-        <p class="p-0 m-0 fs-4 text-center">
-          "As a team of skilled experts, we are wholly dedicated to providing
-          construction companies with a comprehensive range of services. Our
-          primary objective is to assist them in optimizing their operations and
-          fostering business expansion."
-        </p>
-      </section>
+        <section
+          class="intro d-none d-md-block container-fluid container-md rounded-pill my-5 py-4 px-5 toup"
+        >
+          <p class="p-0 m-0 fs-4 text-center">
+            "As a team of skilled experts, we are wholly dedicated to providing
+            construction companies with a comprehensive range of services. Our
+            primary objective is to assist them in optimizing their operations
+            and fostering business expansion."
+          </p>
+        </section>
         <h2 class="display-2 toup">Our Services Includes</h2>
         <div class="d-flex flex-column gap-5" id="services-container">
           <article class="row">
-            <div class="col-12 col-md-6 d-flex flex-column align-items-end justify-content-center toright">
+            <div
+              class="col-12 col-md-6 d-flex flex-column align-items-end justify-content-center toright"
+            >
               <h3 class="text-end" id="pm">Project Management</h3>
               <p class="text-end fs-4">
                 Our team provides specialized project management services,
@@ -201,15 +216,24 @@
               </p>
             </div>
             <div class="img-container col-12 col-md-6 toleft">
-              <img src="./ASSETS/img/gente-negocios-haciendo-lluvia-ideas.jpg" alt="" />
+              <img
+                src="./ASSETS/img/gente-negocios-haciendo-lluvia-ideas.jpg"
+                alt=""
+              />
             </div>
-            
           </article>
           <article class="row">
-            <div class="col-12 col-md-6 d-flex align-items-center justify-content-end toright">
-              <img  src="./ASSETS/img/empresaria-que-trabaja-oficina-sonrisa-mientras-sentado.jpg" alt="" />
+            <div
+              class="col-12 col-md-6 d-flex align-items-center justify-content-end toright"
+            >
+              <img
+                src="./ASSETS/img/empresaria-que-trabaja-oficina-sonrisa-mientras-sentado.jpg"
+                alt=""
+              />
             </div>
-            <div class="col-12 col-md-6 d-flex flex-column align-items-start justify-content-center toleft">
+            <div
+              class="col-12 col-md-6 d-flex flex-column align-items-start justify-content-center toleft"
+            >
               <h3 id="me">Measurements and Estimating</h3>
               <p class="fs-4">
                 Provide accurate dimensions and area reports of residential
@@ -219,7 +243,9 @@
             </div>
           </article>
           <article class="row">
-            <div class="col-12 col-md-6 d-flex flex-column align-items-end justify-content-center toright">
+            <div
+              class="col-12 col-md-6 d-flex flex-column align-items-end justify-content-center toright"
+            >
               <h3 id="crm">Customer Relationship Managment</h3>
               <p class="text-end fs-4">
                 We offer tailored CRM services that excel in optimizing customer
@@ -228,75 +254,147 @@
               </p>
             </div>
             <div class="col-12 col-md-6 img-container toleft">
-              <img class="" src="./ASSETS/img/cerrar-persona-sonriente-sala-conferencias.jpg" alt="" />
+              <img
+                class=""
+                src="./ASSETS/img/cerrar-persona-sonriente-sala-conferencias.jpg"
+                alt=""
+              />
             </div>
           </article>
           <article class="row">
-            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center toright">
+            <div
+              class="col-12 col-md-6 d-flex align-items-center justify-content-center toright"
+            >
               <img src="./ASSETS/img/mujer-haciendo-contabilidad.jpg" alt="" />
             </div>
-           <div class="col-12 col-md-6 toleft">
-            <h3 id="ip">Invoicing and Payments</h3>
-            <p class="fs-4">
-              Our comprehensive invoicing and payments management solutions
-              cover all aspects of your financial transactions . This includes
-              professional invoice creation, diligent payment tracking, and
-              precise account reconciliation
-            </p>
-           </div>
+            <div class="col-12 col-md-6 toleft">
+              <h3 id="ip">Invoicing and Payments</h3>
+              <p class="fs-4">
+                Our comprehensive invoicing and payments management solutions
+                cover all aspects of your financial transactions . This includes
+                professional invoice creation, diligent payment tracking, and
+                precise account reconciliation
+              </p>
+            </div>
           </article>
           <article class="row">
-            <div class="col-12 col-md-6 d-flex flex-column align-items-end justify-content-center toright">
+            <div
+              class="col-12 col-md-6 d-flex flex-column align-items-end justify-content-center toright"
+            >
               <h3 class="text-end" id="ba">Bookkeeping and Accounting</h3>
               <p class="fs-4 text-end">
                 Our professional bookkeeping and accounting services equip you
-                with vital financial insights, enabling informed decision -making
-                . This encompasses the preparation of meticulous financial
-                statements, cash flow reports, and balance sheets .
+                with vital financial insights, enabling informed decision
+                -making . This encompasses the preparation of meticulous
+                financial statements, cash flow reports, and balance sheets .
               </p>
             </div>
-              <div class="col-12 col-md-6 d-flex align-items-center justify-content-center toleft">
-                <img src="./ASSETS/img/empleado-trabajando-muy-concentrado.jpg" alt="" />
-              </div>
-            
+            <div
+              class="col-12 col-md-6 d-flex align-items-center justify-content-center toleft"
+            >
+              <img
+                src="./ASSETS/img/empleado-trabajando-muy-concentrado.jpg"
+                alt=""
+              />
+            </div>
           </article>
           <article class="row">
-            <div class="img-container col-12 col-md-6 d-flex justify-content-center align-items-center toright"><img src="./ASSETS/img/primer-plano-pareja-irreconocible-que-firma-contrato-asesor-financiero.jpg" alt="" /></div>
+            <div
+              class="img-container col-12 col-md-6 d-flex justify-content-center align-items-center toright"
+            >
+              <img
+                src="./ASSETS/img/primer-plano-pareja-irreconocible-que-firma-contrato-asesor-financiero.jpg"
+                alt=""
+              />
+            </div>
             <div class="col-12 col-md-6 toleft">
               <h3 id="s">Supplements</h3>
-              <p class="fs-4">We understand the nature of
-                the insurance game and how carriers handle
-                claims. Our team of experts, with years of
-                claim handling experience , in house public
-                adjusters and,
-                certifications, ensure comprehensive project
-                coverage. We catch what they try to miss.
-                We identify any extra requirements
-                generated by the job itself or
-                code enhancements and address them
-                straight to the adjuster as they arise to
-                guarantee client satisfaction and project
-                success.</p>
+              <p class="fs-4">
+                We understand the nature of the insurance game and how carriers
+                handle claims. Our team of experts, with years of claim handling
+                experience , in house public adjusters and, certifications,
+                ensure comprehensive project coverage. We catch what they try to
+                miss. We identify any extra requirements generated by the job
+                itself or code enhancements and address them straight to the
+                adjuster as they arise to guarantee client satisfaction and
+                project success.
+              </p>
             </div>
-            
-            
           </article>
         </div>
 
-        <section class="d-none d-md-flex"></section>
-      </section>
+        <section class=" d-md-flex container-fluid flex-column m-0 p-0">
 
+          <h2 class="display-2">Our Partners</h2>
+
+          <div class="d-flex container flex-column gap-5 my-5 py-5">
+            
+            <div class="d-flex gap-5 justify-content-end my-5 toright " >
+              <img
+                src="./ASSETS/img/Logos Clientes/IKOLogo.jpg"
+                alt=""
+                class="w-25 rounded-2"
+              /><img
+                src="./ASSETS/img/Logos Clientes/tamko.jpeg"
+                alt=""
+                class="w-25 rounded-2"
+              />
+              <img
+                src="./ASSETS/img/Logos Clientes/Versico_Logo.png"
+                alt=""
+                class="w-25 rounded-2"
+              />
+            </div>
+
+            <div class="d-flex gap-5 justify-content-start my-5 toleft">
+              <img
+                src="./ASSETS/img/Logos Clientes/1200px-GAF_logo.svg.png"
+                class="w-25 rounded-circle"
+                alt=""
+              />
+              <img
+                src="./ASSETS/img/Logos Clientes/berridge.jpeg"
+                class="w-25 rounded-circle"
+                alt=""
+              />
+              <img
+                src="./ASSETS/img/Logos Clientes/1200px-Owens_Corning_logo.svg.png"
+                class="w-25 rounded-circle"
+                alt=""
+              />
+            </div>
+
+            <div class="d-flex gap-5 my-5 justify-content-end toright">
+              <img
+                src="./ASSETS/img/Logos Clientes/carlisle.png"
+                alt=""
+                class="w-25 rounded-2"
+              />
+              <img
+                src="./ASSETS/img/Logos Clientes/Certainteed-Logo.jpg"
+                alt=""
+                class="w-25 rounded-2"
+              />
+              <img
+                src="./ASSETS/img/Logos Clientes/firestone.png"
+                alt=""
+                class="w-25 rounded-2"
+              />
+            </div>
+          </div>
+        </section>
+      </section>
     </main>
 
     <!-- ****************** -->
     <!-- Footer Start -->
-    <footer class=" position-relative z-3">
+    <footer class="position-relative z-3">
       <!-- Contact form Start -->
       <section
         class="row container mx-auto gap-md-0 gap-5 pt-5 pb-4 border-white border-bottom"
         id="contact"
       >
-        <article class="col-12 col-md-7  px-2 px-md-5 order-md-last">
+        <article class="col-12 col-md-7 px-2 px-md-5 order-md-last">
           <h5>CONTACT US</h5>
           <h2 class="display-4 m-0">From North to South,</h2>
           <h2 class="display-4 mb-5">we work everywhere.</h2>
@@ -383,12 +481,12 @@
                 <option>51 to 200</option>
                 <option>+ 200</option>
               </select>
-              <label for="companySize" class="form-label  m-0">
+              <label for="companySize" class="form-label m-0">
                 Company Size</label
               >
             </div>
             <div class="d-flex align-items-center justify-content-end">
-              <button type="submit" class="btn btn-outline-light  rounded-5">
+              <button type="submit" class="btn btn-outline-light rounded-5">
                 Submit
               </button>
             </div>
@@ -400,7 +498,7 @@
       <!-- Ubicacion Dates Start -->
       <section class="row border-white border-bottom container m-auto mt-3">
         <article
-          class="col-12 col-md-8 d-flex align-items-center justify-content-center  gap-5 my-5 border-white border-end"
+          class="col-12 col-md-8 d-flex align-items-center justify-content-center gap-5 my-5 border-white border-end"
           id="Build-OPS"
         >
           <img
@@ -413,12 +511,14 @@
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
               Lorem ipsum dolor sit amet consectetur.
-              <a href="#"><strong id="footer_letsConnect">Let´s connect!.</strong></a>
+              <a href="#"
+                ><strong id="footer_letsConnect">Let´s connect!.</strong></a
+              >
             </p>
           </article>
         </article>
         <article
-          class="col-12 col-md-4 flex-column d-flex align-items-center align-items-md-center  my-5"
+          class="col-12 col-md-4 flex-column d-flex align-items-center align-items-md-center my-5"
         >
           <h3 class="mb-3 d-flex">Office Info</h3>
           <p class="m-0">(217) 360-9464</p>
@@ -452,22 +552,12 @@
           </li>
         </ul>
         <article class="d-flex gap-3 gap-md-5 fs-6" id="footer__nav">
-          <a href="index.html" class=" text-center footer__nav-item"
-            >Home</a
-          >
-          <a href="about.html" class=" text-center footer__nav-item"
-            >About Us</a
-          >
-          <a href="carees.html" class="text-center footer__nav-item"
-            >Carees</a
-          >
-          <a href="faq.html" class=" text-center footer__nav-item"
-            >FAQ</a
-          >
+          <a href="index.html" class="text-center footer__nav-item">Home</a>
+          <a href="about.html" class="text-center footer__nav-item">About Us</a>
+          <a href="carees.html" class="text-center footer__nav-item">Carees</a>
+          <a href="faq.html" class="text-center footer__nav-item">FAQ</a>
         </article>
-        <li
-          class=" text-center p-0 m-0 d-flex align-items-center gap-2"
-        >
+        <li class="text-center p-0 m-0 d-flex align-items-center gap-2">
           <i class="fa fa-mobile-phone fs-2" aria-hidden="true"></i> (504) 888
           9595
         </li>
@@ -486,7 +576,7 @@
 
       <!-- Copyrights Start -->
       <article class="row">
-        <small class="text-center px-4 px-md-0 py-3 "
+        <small class="text-center px-4 px-md-0 py-3"
           >&copy;<a
             href="https://marcelomelogno-webdevelopment.netlify.app/"
             target="_blank"
