@@ -276,7 +276,7 @@ video {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: var(--tertiary-color-ligh);
+  /* background-color: var(--tertiary-color-ligh); */
   margin: var(--md-spacing);
   border-radius: 50%;
 }
@@ -288,6 +288,76 @@ video {
   margin-bottom: var(--lg-spacing);
 }
 
+/* ROOFING  */
+
+#pvc {
+  background-image: url(../ASSETS/img/roofs/PVC-Roof-Featured-Image.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+#tpo {
+  background-image: url(../ASSETS/img/roofs/TPO.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 50%; 
+  margin: 0;
+  padding: 0;
+}
+
+#epdm {
+  background-image: url(../ASSETS/img/roofs/Epdm.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+   
+}
+
+
+#tile {
+  background-image: url(../ASSETS/img/roofs/TileRoof.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 50%; 
+  margin: 0;
+  padding: 0;
+}
+#asphaltic {
+  background-image: url(../ASSETS/img/roofs/asphaltic.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 50%; 
+  margin: 0;
+  padding: 0;
+}
+
+#metal {
+  background-image: url(../ASSETS/img/roofs/metalRoof.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+   
+}
 /* FAQ */
 
 #faq {
