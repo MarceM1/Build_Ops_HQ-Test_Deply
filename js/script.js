@@ -21,3 +21,9 @@ sr.reveal('.toup', {
     distance: '-150px'
 });
 
+
+const btnChevron = document.querySelector('#chevron');
+
+btnChevron.addEventListener('click',(e)=>{
+    btnChevron.classList.add('turnDown');
+})
