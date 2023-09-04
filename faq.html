@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Scroll Reveal -->
     <script src="./js/scrollreveal.js"></script>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
     <title>Build Ops HQ | FAQ</title>
   </head>
   <body>
@@ -24,7 +24,7 @@
     <header class="" id="home">
       <!-- Navbar Start -->
       <nav
-        class="navbar navbar-expand-lg container-fluid navbar-dark bg-dark"
+        class="navbar navbar-expand-lg container-fluid navbar-dark bg-dark position-absolute z-3"
       >
         <div class="container py-1">
           <a class="navbar-brand" href="index.html"> Build Ops HQ </a>
@@ -42,9 +42,10 @@
           <div class="navbar-collapse mx-5" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
+                <a class="nav-link" href="index.html"> Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html"> Services </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="about.html"
@@ -68,16 +69,16 @@
               >I need an agent</a
             >
             <!-- <form class="d-flex" role="search">
-								<input
-									class="form-control me-2"
-									type="search"
-									placeholder="Search"
-									aria-label="Search"
-								/>
-								<button class="btn btn-outline-success" type="submit">
-									Search
-								</button>
-							</form> -->
+                              <input
+                                  class="form-control me-2"
+                                  type="search"
+                                  placeholder="Search"
+                                  aria-label="Search"
+                              />
+                              <button class="btn btn-outline-success" type="submit">
+                                  Search
+                              </button>
+                          </form> -->
           </div>
         </div>
       </nav>
@@ -86,61 +87,169 @@
     <!-- Header End -->
     <!-- ****************** -->
     <!-- Start Main -->
-    <main class=" " id="faq">
-      <section class="container d-flex flex-column gap-5 align-items-start justify-content-center py-5" >
+    <main class="mt-5" id="faq">
+      <section
+        class="w-100 px-5 d-flex flex-column gap-5 align-items-start justify-content-center py-5"
+      >
         <article class="todown">
-          <h4 class="bg-tertiary py-2 px-1 text-white">FAQ</h4>
+          <h4 class="bg-tertiary py-2 px-2 text-white">FAQ</h4>
           <h2 class="display-5">Frecuently Asked Questions</h2>
         </article>
-        <article class=" px-1 mx-1 px-md-5 mx-md-5 d-flex flex-column gap-5 p-5">
-          <div class="toright">
-            <h3 class="bg-tertiary text-white py-3 px-2">
+        <article class="d-flex flex-column gap-2 w-75 ">
+          <div class="d-flex bg-tertiary justify-content-around toleft">
+            <h3 class="bg-tertiary text-start text-white py-3 px-2">
               What is a roofing company’s #1 expense?
             </h3>
-            <p class="fs-4">
-              In the roofing industry, the number one expense for many companies is office overhead. Office overhead refers to the costs associated with running the administrative side of your roofing business. This includes expenses related to maintaining an office space, utilities, equipment, technology, administrative staff salaries, insurance, and other operational necessities.
-            </p>
-            <p class="fs-4">While labor and material costs are significant factors in the roofing business, office overhead can often take the lead as the top expense.</p>
+            <a
+              class="d-flex alig align-items-center justify-content-center text-white"
+              type=""
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseWidthExample"
+              aria-expanded="false"
+              aria-controls="collapseWidthExample"
+            >
+              <i class="fa fa-chevron-circle-down fs-1" aria-hidden="true" ></i>
+          </a>
           </div>
-          <div class="toleft">
-            <h3 class="bg-tertiary text-white text-end py-3 px-2">
+          <div style="min-height: 120px">
+            <div class="collapse" id="collapseWidthExample">
+              <div class="w-100">
+                <p class="fs-4">
+                  In the roofing industry, the number one expense for many
+                  companies is office overhead. Office overhead refers to the
+                  costs associated with running the administrative side of your
+                  roofing business. This includes expenses related to
+                  maintaining an office space, utilities, equipment, technology,
+                  administrative staff salaries, insurance, and other
+                  operational necessities.
+                </p>
+                <p class="fs-4">
+                  While labor and material costs are significant factors in the
+                  roofing business, office overhead can often take the lead as
+                  the top expense.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex bg-tertiary px-2 justify-content-around toleft">
+            <h3 class="bg-tertiary text-start text-white py-3 px-2">
               Why should I third party my company’s back office?
             </h3>
-            <p class="fs-4 text-start">
-              Outsourcing your company's back-office operations can bring several benefits. By partnering with a specialized third-party provider, you can:
-            </p>
-            <ul class="d-flex flex-column gap-3">
-              <li>
-                <p class="fs-5">Focus on Core Activities: Outsourcing back-office tasks like payroll, accounting, and administrative work allows your company to concentrate on its core competencies – delivering exceptional roofing services.</p>
-              </li>
-              <li>
-                <p class="fs-5">Cost Savings: Outsourcing can reduce the overhead costs associated with hiring and training in-house staff, as well as investing in technology and infrastructure for back-office functions.</p>
-              </li>
-              <li>
-                <p class="fs-5">Access to Expertise: Back-office outsourcing companies are experts in their field. You can leverage their knowledge and experience to streamline processes and ensure compliance with industry regulations</p>
-              </li>
-              <li>
-                <p class="fs-5">Scalability: Outsourcing allows your back office to easily scale up or down based on your company's needs, without the challenges of managing a fluctuating in-house team.</p>
-              </li>
-              <li>
-                <p class="fs-5">Risk Mitigation: Professionals experienced in compliance can help reduce the risk of errors, penalties, and other legal or financial pitfalls.</p>
-              </li>
-            </ul>
+            <a
+              class="d-flex alig align-items-center justify-content-center text-white"
+              type=""
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse2"
+              aria-expanded="false"
+              aria-controls="collapseWidthExample"
+            >
+              <i class="fa fa-chevron-circle-down fs-1" aria-hidden="true" ></i>
+          </a>
           </div>
-          <div class="toright">
-            <h3 class="bg-tertiary text-white py-3 px-2">
+          <div style="min-height: 120px">
+            <div class="collapse" id="collapse2">
+              <div class="w-100">
+                <p class="fs-4">
+                  Outsourcing your company's back-office operations can bring
+                  several benefits. By partnering with a specialized third-party
+                  provider, you can:
+                </p>
+                <p class="fs-4">
+                  While labor and material costs are significant factors in the
+                  roofing business, office overhead can often take the lead as
+                  the top expense.
+                </p>
+                <ul class="d-flex flex-column gap-3">
+                  <li>
+                    <p class="fs-5">
+                      Focus on Core Activities: Outsourcing back-office tasks like
+                      payroll, accounting, and administrative work allows your
+                      company to concentrate on its core competencies – delivering
+                      exceptional roofing services.
+                    </p>
+                  </li>
+                  <li>
+                    <p class="fs-5">
+                      Cost Savings: Outsourcing can reduce the overhead costs
+                      associated with hiring and training in-house staff, as well as
+                      investing in technology and infrastructure for back-office
+                      functions.
+                    </p>
+                  </li>
+                  <li>
+                    <p class="fs-5">
+                      Access to Expertise: Back-office outsourcing companies are
+                      experts in their field. You can leverage their knowledge and
+                      experience to streamline processes and ensure compliance with
+                      industry regulations
+                    </p>
+                  </li>
+                  <li>
+                    <p class="fs-5">
+                      Scalability: Outsourcing allows your back office to easily
+                      scale up or down based on your company's needs, without the
+                      challenges of managing a fluctuating in-house team.
+                    </p>
+                  </li>
+                  <li>
+                    <p class="fs-5">
+                      Risk Mitigation: Professionals experienced in compliance can
+                      help reduce the risk of errors, penalties, and other legal or
+                      financial pitfalls.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex bg-tertiary justify-content-around w-100 px-2 toleft">
+            <h3 class="bg-tertiary text-start text-white py-3 px-2">
               What is the most important aspect of BuilOps HQ?
             </h3>
-            <p class="fs-4">
-              In the realm of roofing, the most crucial aspect for a business owner to maintain a leading position is the seamless interplay of sales prowess and unwavering dedication to customer satisfaction. These twin pillars stand as the linchpin of our company's enduring prosperity and sustained eminence.
-
-            </p>
-            <p class="fs-4">
-              Our primary focus revolves around providing you the ability to keep your efforts in the polishing of an effective sales team and the development of new strategies to generate more revenue. We allow you to keep sales up and a driven focus on an excellent quality of service. We accomplish this by taking care of all other aspects of your business and focus on our commitment to your well-being.
-
-            </p>
+            <a
+              class="d-flex alig align-items-center justify-content-center text-white"
+              type=""
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse3"
+              aria-expanded="false"
+              aria-controls="collapseWidthExample"
+            >
+              <i class="fa fa-chevron-circle-down fs-1" aria-hidden="true" ></i>
+          </a>
           </div>
-          
+          <div style="min-height: 120px">
+            <div class="collapse" id="collapse3">
+              <div class="w-100">
+                <p class="fs-4">
+                  In the roofing industry, the number one expense for many
+                  companies is office overhead. Office overhead refers to the
+                  costs associated with running the administrative side of your
+                  roofing business. This includes expenses related to
+                  maintaining an office space, utilities, equipment, technology,
+                  administrative staff salaries, insurance, and other
+                  operational necessities.
+                </p>
+                <p class="fs-4">
+                  In the realm of roofing, the most crucial aspect for a business
+                  owner to maintain a leading position is the seamless interplay of
+                  sales prowess and unwavering dedication to customer satisfaction.
+                  These twin pillars stand as the linchpin of our company's enduring
+                  prosperity and sustained eminence.
+                </p>
+                <p class="fs-4">
+                  Our primary focus revolves around providing you the ability to
+                  keep your efforts in the polishing of an effective sales team and
+                  the development of new strategies to generate more revenue. We
+                  allow you to keep sales up and a driven focus on an excellent
+                  quality of service. We accomplish this by taking care of all other
+                  aspects of your business and focus on our commitment to your
+                  well-being.
+                </p>
+              </div>
+            </div>
+          </div>
         </article>
       </section>
     </main>
@@ -321,6 +430,7 @@
         </ul> -->
         <article class="d-flex gap-3 gap-md-5 fs-6" id="footer__nav">
           <a href="index.html" class="text-center footer__nav-item">Home</a>
+          <a href="service.html" class="text-center footer__nav-item">Services</a>
           <a href="about.html" class="text-center footer__nav-item">About Us</a>
           <a href="carees.html" class="text-center footer__nav-item">Carees</a>
           <a href="faq.html" class="text-center footer__nav-item">FAQ</a>
@@ -337,7 +447,9 @@
         class="d-flex d-md-none align-items-center justify-content-center d-block d-md-none my-5"
       >
         <a href="#home" class="text-center"
-          ><img src="./ASSETS/img/Logo final Build Ops HQ_letras blancas_Mesa de trabajo 1.png" alt="Logo"
+          ><img
+            src="./ASSETS/img/Logo final Build Ops HQ_letras blancas_Mesa de trabajo 1.png"
+            alt="Logo"
         /></a>
       </article>
       <!-- Mobile version Build OPS Logo End -->

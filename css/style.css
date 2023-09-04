@@ -30,6 +30,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   background-color: var(--main-bg-color);
+  background-color: white;
 }
 
 ul,
@@ -46,8 +47,21 @@ h3,
 h4,
 h5 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600 !important;
+  font-weight: bold !important;
 }
+
+p, a, ::placeholder, select {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-weight: normal;
+}
+
+small {
+  font-family: "Montserrat", sans-serif;
+}
+
 
 /* ***** Root Var ***** */
 
@@ -98,14 +112,12 @@ h5 {
 /* Custom Styles */
 
 .borderTertiary {
-  border-bottom: solid 10px var(--tertiary-color-solid) !important;
+  border-bottom: solid 3px var(--tertiary-color-solid) !important;
 }
 
 /* Navbar */
 
-/* .navbar {
-    background-color: var(--main-color-solid) !important;
-} */
+
 
 #dropdown__item:hover {
   -webkit-transition: color 0.3s ease-in-out v;
@@ -195,28 +207,7 @@ video {
 }
 
 .main-cover {
-  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1082%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(248%2c 148%2c 40%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c447.56C84.623%2c450.703%2c107.314%2c322.297%2c172.028%2c267.681C225.204%2c222.803%2c311.628%2c218.686%2c344.107%2c157.148C376.814%2c95.179%2c349.729%2c20.504%2c339.036%2c-48.746C328.454%2c-117.274%2c324.428%2c-189.52%2c282.096%2c-244.438C238.666%2c-300.781%2c173.274%2c-338.114%2c103.888%2c-353.809C36.782%2c-368.988%2c-29.129%2c-341.76%2c-96.948%2c-330.175C-174.869%2c-316.864%2c-261.497%2c-329.158%2c-323.97%2c-280.722C-390.339%2c-229.266%2c-441.697%2c-147.386%2c-441.027%2c-63.41C-440.37%2c18.898%2c-374.567%2c84.279%2c-320.56%2c146.395C-278.001%2c195.344%2c-211.282%2c210.788%2c-164.008%2c255.201C-101.327%2c314.089%2c-85.945%2c444.368%2c0%2c447.56' fill='%23f7860c'%3e%3c/path%3e%3cpath d='M1440 1026.021C1528.72 1033.8029999999999 1615.833 998.328 1690.354 949.558 1764.476 901.049 1814.686 828.002 1859.413 751.539 1908.495 667.6320000000001 1974.5259999999998 581.344 1962.141 484.928 1949.726 388.28 1866.776 318.351 1795.2640000000001 252.16199999999998 1729.94 191.7 1656.35 137.62599999999998 1568.912 120.96600000000001 1485.643 105.10000000000002 1402.993 133.608 1323.2 162.21699999999998 1247.452 189.375 1173.085 222.257 1119.345 282.151 1065.049 342.664 1037.663 420.223 1020.415 499.673 1002.119 583.95 979.7860000000001 675.3820000000001 1017.0989999999999 753.1320000000001 1054.247 830.539 1144.222 861.431 1216.365 907.983 1288.655 954.63 1354.295 1018.504 1440 1026.021' fill='%23f9a244'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1082'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); */
-  background: rgb(205, 206, 209);
-  background: -o-linear-gradient(
-    bottom,
-    rgba(205, 206, 209, 1) 3%,
-    rgba(193, 193, 193, 1) 49%,
-    rgba(205, 206, 209, 1) 100%
-  );
-  background: -webkit-gradient(
-    linear,
-    left bottom, left top,
-    color-stop(3%, rgba(205, 206, 209, 1)),
-    color-stop(49%, rgba(193, 193, 193, 1)),
-    to(rgba(205, 206, 209, 1))
-  );
-  background: linear-gradient(
-    0deg,
-    rgba(205, 206, 209, 1) 3%,
-    rgba(193, 193, 193, 1) 49%,
-    rgba(205, 206, 209, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdced1",endColorstr="#cdced1",GradientType=1);
+ background-color: whitesmoke;
 }
 
 /* About US */
@@ -356,27 +347,7 @@ video {
 /* FAQ */
 
 #faq {
-  background: rgb(205, 206, 209);
-  background: -o-linear-gradient(
-    bottom,
-    rgba(205, 206, 209, 1) 3%,
-    rgba(193, 193, 193, 1) 49%,
-    rgba(205, 206, 209, 1) 100%
-  );
-  background: -webkit-gradient(
-    linear,
-    left bottom, left top,
-    color-stop(3%, rgba(205, 206, 209, 1)),
-    color-stop(49%, rgba(193, 193, 193, 1)),
-    to(rgba(205, 206, 209, 1))
-  );
-  background: linear-gradient(
-    0deg,
-    rgba(205, 206, 209, 1) 3%,
-    rgba(193, 193, 193, 1) 49%,
-    rgba(205, 206, 209, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdced1",endColorstr="#cdced1",GradientType=1);
+  
 }
 
 /* Footer */
