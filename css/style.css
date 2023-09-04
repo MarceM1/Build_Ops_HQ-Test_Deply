@@ -99,7 +99,7 @@ select {
 }
 
 p {
-  font-weight: normal;
+  color: black !important;
 }
 
 small {
