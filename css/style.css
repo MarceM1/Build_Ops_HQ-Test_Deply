@@ -207,7 +207,7 @@ video {
 
 .worker__skills article img {
   display: inline-block;
-  padding: 1rem;
+  padding: .5rem;
   border-radius: 100px;
   background-color: var(--tertiary-color-solid);
 }
@@ -375,6 +375,10 @@ footer small strong:hover {
 #footer_letsConnect:hover {
   text-shadow: 0 0 2px var(--tertiary-color-solid);
 }
+
+#Build-OPS {
+  border-right: 1px solid white;
+}
 /* ***** Media Querys ***** */
 @media (max-width: 576px) {
   #carees img {
@@ -385,6 +389,9 @@ footer small strong:hover {
   }
   .intro {
     border-radius: 0 0 0 0 !important;
+  }
+  #Build-OPS {
+    border-right:none;
   }
 }
 
